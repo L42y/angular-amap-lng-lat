@@ -2,12 +2,16 @@
 
 ## Dependencies
 
+* [angular-amap](https://github.com/L42y/angular-amap)
+
 * [angular-amap-map](https://github.com/L42y/angular-amap-map)
 
 ## Installation
 
 1. `bower install --save L42y/angular-amap-lngLat`
+
 2. including `angular-amap-lng-lat.js` script file provided by this component into your application
+
 3. adding `l42y.amap.lngLat` as a module dependency to your application
 
 ## Usage
