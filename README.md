@@ -8,7 +8,7 @@
 
 ## Installation
 
-1. `bower install --save L42y/angular-amap-lngLat`
+1. `bower install --save L42y/angular-amap-lng-lat`
 
 2. including `angular-amap-lng-lat.js` script file provided by this component into your application
 
