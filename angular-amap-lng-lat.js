@@ -10,7 +10,9 @@ angular.module('l42y.amap.lngLat', [
     restrict: 'EA',
     link: function ($scope, $element, $attrs, amap) {
       Amap.promise.then(function () {
-        $attrs.$observe('amapLngLat', function (val) {
+        $scope.$watch(function () {
+          return $attrs.amapLngLat;
+        }, function (val) {
           var lngLat = val.split(/[\s,]+/);
           var amapLngLat = new $window.AMap.LngLat(lngLat[0], lngLat[1]);
           amap.map.setCenter(amapLngLat);
